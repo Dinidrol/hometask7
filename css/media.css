@@ -1,0 +1,136 @@
+@font-face {
+    font-family: "League Gothic";
+    src: url(../font/LeagueGothic-Regular.otf);
+}
+@font-face {
+    font-family: "Open Sans";
+    src: url(../font/OpenSans-CondLight.ttf);
+}
+@media (max-width:960px) {
+    .wrapper{
+        width: 730px;
+    }
+    .header-top{
+        flex-direction: column;
+    }
+    .logo{
+        margin-bottom: 35px;
+    }
+    .banner{
+        top: 245px;
+    }
+    .banner-text{
+        width: 270px;
+    }
+    .banner-photo{
+        margin-left: 135px;
+    }
+    .mobile_img{
+        display: none;
+    }
+    .topic-li h2{
+        font-size: 24px;
+    }
+    .topic-li li{
+        padding: 0 44px;
+    }
+    .topic-li p:nth-child(2n+2){
+        padding-left: 75px;
+    }
+    .feed{
+        width: 315px;
+    }
+    .content-update {
+        width: 338px;
+    }
+}
+@media (max-width: 768px) {
+    .wrapper{
+        width: 480px;
+    }
+    .header-top{
+        align-items: center;
+    }
+    .links li{
+        display: none;
+        margin: 0;
+    }
+    .links li:first-child{
+        display: block;
+    }
+    .banner{
+        top: 200px;
+        height: 350px;
+    }
+    .banner-text h1{
+        font-size: 36px;
+    }
+    .banner-text h2{
+        font-size: 20px;
+    }
+    .banner-text p{
+        display: none;и
+    }
+    .carusel .banner-photo {
+        margin-left: 15px;
+    }
+    .topic-li{
+        
+        flex-direction: column;
+    }
+    .content-feed {
+        flex-direction: column;
+        align-items: center;
+    }
+    .content-update{
+        width: 267px;
+    }
+    .content-logos img:nth-child(1){
+        display: none;
+    }
+    .content-logos img:nth-child(2){
+        display: block;
+    }
+    .categories-catalog{
+        padding: 35px 0;
+    }
+    .categories-catalog-text{
+        flex-direction: column;
+    }
+    .categories-catalog-text li{
+        padding-right: 15px;
+    }
+    .categories-catalog-text li:last-child{
+        padding-right: 0px;
+    }
+    .footer-content{
+        flex-direction: column;
+    }
+    .footer-content-links li{
+        padding: 0 14px 0;
+    }
+    .footer-copyright{
+        margin: 20px 170px;
+    }
+
+}
+@media (max-width: 480px) {
+    .wrapper{
+        width: 280px;
+    }
+    .banner{
+        display: none;
+    }
+    .banner-text p{
+        display: none;
+    }
+    .categories{
+        display: none;
+    }
+    .footer-content-links{
+        display:none;
+    }
+    .footer-copyright{
+        margin: auto;
+    }
+}

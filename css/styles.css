@@ -1,0 +1,236 @@
+::-webkit-scrollbar {
+    display: none;
+}
+h1, h2,h3{
+    font-family: 'League Gothic', arial;
+}
+p{
+    font-family: 'Open Sans';
+}
+.header{
+    background-image: url(../img/bg.png);
+    height: 845px;
+    position: relative;
+}
+.wrapper{
+    width: 940px;
+    margin: 0 auto;
+}
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 65px;
+}
+.links{
+    display: flex;
+    align-items: center;
+    font-family: 'League Gothic', arial;
+}
+.links li{
+    margin-right: 45px;
+}
+.links li:last-child{
+    margin-right: 0px;
+}
+.links a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 24px;
+}
+.links a:after{
+    content: '';
+    display: block;
+    position: absolute;
+    background-color: #edbfff;
+}
+.banner{
+    background-color: rgba(152,141,146,0.50);
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    display: block;
+    top: 275px;
+    left: 0px;
+}
+.carusel-conteiner{
+    margin-top: 80px;
+}
+.carusel{
+    display: flex;
+}
+.banner-text{
+    width: 500px;
+}
+.banner-text h1{
+    color: #fefefe;
+    font-size: 60px;
+}
+.banner-text h2{
+    color: #edbfff;
+    font-size: 32px;
+}
+.banner-text p{
+    color: #fefefe;
+    font-size: 18px;
+}
+.banner-photo{
+    position: relative;
+    margin-left: 70px;
+}
+.banner-iphone{
+    position: absolute;
+    top: -100px;
+    left: 85px;
+}
+.first{
+    background-image: linear-gradient(#735082,#34263b);
+}
+.topic-li i{
+    position: absolute;
+    top: 7px;
+    left: 0px;
+    font-size: 23px;
+    color: #fff;
+}
+.topic-li{
+    display: flex;
+    padding: 80px 0;
+}
+.topic-li li{
+    padding: 0 40px;
+    position: relative;
+}
+.topic-li p:nth-child(2n+2){
+    padding-top: 22px;
+    padding-left: 120px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.topic-li h2{
+    color: #fff;
+    font-size: 30px;
+}
+.topic-li p{
+    color: #fff;
+    font-size: 16px;
+}
+.content{
+    background-color: #f9f9f9;
+    width: 100%;
+}
+.content-feed{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+.feed{
+    background-color: #ffffff;
+    width: 426px;
+}
+.feed h3{
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-top: 33px;
+    margin-left: 40px;
+}
+.feed p{
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-right: 35px;
+    font-size: 18px;
+}
+.feed-text{
+    position: relative;
+    padding-bottom: 30px;
+}
+.feed-text img{
+    position: absolute;
+    left: -25px;
+    top: -10px;
+}
+.content-update{
+    width: 426px;
+}
+.feeds h4{
+    padding-bottom: 5px;
+}
+.feeds li{
+    padding: 5px 0px 5px 70px;
+    margin-bottom: 10px;
+    position: relative;     
+}
+.feeds img{
+    position: absolute;
+    left: 10px;
+    top: auto;
+}
+.content-update h3{
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 5px;
+}
+.content-logos{
+    padding-top: 115px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.content-logos img{
+    margin: 30px 0;
+}
+.content-logos img:nth-child(2){
+    display: none;
+}
+.categories{
+    background-color: #ececec;
+    width: 100%;
+}
+.categories-catalog{
+    padding: 100px 0;
+}
+.categories-catalog-text{
+    display: flex;
+    justify-content: space-between;
+}
+.categories-catalog-text li{
+    padding-right: 120px;
+}
+.categories-catalog-text p:nth-child(2n){
+    font-size: 18px;
+    padding-top: 20px;
+}
+.categories-catalog-text p:nth-child(2n+1){
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: 'League Gothic', arial;
+}
+.categories-catalog-text li:last-child{
+    padding-right: 0px;
+}
+.footer{
+    background-image: url(../img/footer.png);
+    width: 100%;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 45px 0;
+}
+.footer-content-links{
+    display: flex;
+    text-transform: uppercase;
+    font-family: 'League Gothic';
+    font-size: 20px;
+}
+.footer-content-links li{
+    padding-right: 40px;
+}
+.footer-content-links a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer-copyright p{
+    color: #fff;
+}
