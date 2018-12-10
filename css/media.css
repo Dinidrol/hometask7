@@ -28,6 +28,9 @@
     .mobile_img{
         display: none;
     }
+    .smile_img{
+        display: none;
+    }
     .topic-li h2{
         font-size: 24px;
     }
@@ -62,17 +65,21 @@
         top: 200px;
         height: 350px;
     }
+    .banner-text{
+        width: 200px;
+    }
     .banner-text h1{
+        text-align: center;
         font-size: 36px;
     }
     .banner-text h2{
         font-size: 20px;
     }
     .banner-text p{
-        display: none;и
+        display: none;
     }
     .carusel .banner-photo {
-        margin-left: 15px;
+        margin-left: 0px;
     }
     .topic-li{
         
@@ -118,11 +125,41 @@
     .wrapper{
         width: 280px;
     }
+    .header{
+        height: 550px;
+    }
     .banner{
+        height: 200px;
+    }
+    .banner-text{
+        margin: 0 auto;
+    }
+    .banner-text h1{
+        text-align: center;
+    }
+    .banner-text h2{
         display: none;
     }
     .banner-text p{
         display: none;
+    }
+    .banner-photo{
+        display: none;
+    }
+    .banner-text p{
+        display: none;
+    }
+    .content-logos img:nth-child(1){
+        display: none;
+    }
+    .content-logos img:nth-child(2){
+        display: none;
+    }
+    .content-logos img:nth-child(3){
+        display: block;
+    }
+    .feed{
+        width: 255px;
     }
     .categories{
         display: none;

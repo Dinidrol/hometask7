@@ -7,6 +7,10 @@ h1, h2,h3{
 p{
     font-family: 'Open Sans';
 }
+hr{
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #fff;
+}
 .header{
     background-image: url(../img/bg.png);
     height: 845px;
@@ -38,11 +42,8 @@ p{
     color: #fff;
     font-size: 24px;
 }
-.links a:after{
-    content: '';
-    display: block;
-    position: absolute;
-    background-color: #edbfff;
+.links a:hover{
+    border-bottom: 5px solid #edbfff;
 }
 .banner{
     background-color: rgba(152,141,146,0.50);
@@ -123,10 +124,12 @@ p{
     display: flex;
     justify-content: space-between;
     padding-top: 100px;
+    padding-bottom: 115px;
 }
 .feed{
     background-color: #ffffff;
-    width: 426px;
+    width: 365px;
+    border: 1px solid #efefef;
 }
 .feed h3{
     text-transform: uppercase;
@@ -154,6 +157,8 @@ p{
 }
 .feeds h4{
     padding-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
 }
 .feeds li{
     padding: 5px 0px 5px 70px;
@@ -172,7 +177,6 @@ p{
     margin-left: 5px;
 }
 .content-logos{
-    padding-top: 115px;
     display: flex;
     align-items: center;
     justify-content: space-around;
